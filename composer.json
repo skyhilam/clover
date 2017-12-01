@@ -1,0 +1,21 @@
+{
+    "name": "skylam/clover",
+    "description": "Clover Admin Helper Class",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Sky Lam",
+            "email": "skyhilam@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0",
+        "laravel/framework": "5.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Clover\\": "src/"
+        }
+    }
+}
