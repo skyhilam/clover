@@ -8,7 +8,6 @@
             "email": "skyhilam@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "php": ">=7.0.0",
         "laravel/framework": "5.5.*"
