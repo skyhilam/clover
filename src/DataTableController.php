@@ -6,8 +6,6 @@ use Illuminate\Http\Request;
 
 abstract class DataTableController extends Controller
 {
-    // test
-
     /**
      * The entity builder.
      *
