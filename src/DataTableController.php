@@ -75,7 +75,7 @@ abstract class DataTableController extends Controller
 
     protected function getDisplayableColumns()
     {
-        return CloverInput::combine(
+        return Helper::combine(
             $this->displayable_keys,
             $this->displayable_values
         );

@@ -2,7 +2,7 @@
 
 namespace Clover;
 
-class CloverInput
+class Helper
 {
 	/**
 	* @link http://foundation-datepicker.peterbeno.com/example.html#docs
