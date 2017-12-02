@@ -10,7 +10,6 @@ use Exception;
 
 abstract class CloudImage
 {
-	protected $record;
 	protected $filename;
 	protected $directory;
 	protected $url = 'http://images.iclover.net/';
@@ -77,16 +76,13 @@ abstract class CloudImage
 
 	protected function storeRecord() 
 	{
-		
 		$this->builder->filename = $this->filename;
 		$this->builder->save();
-
-		$this->record = $image;
 	}
 
 	protected function deleteRecord() 
 	{
-		$this->record->delete();
+		$this->builder->delete();
 	}
 
 	protected function deleteRecordByiFilename($filename) 
