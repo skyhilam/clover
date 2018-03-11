@@ -12,7 +12,7 @@ abstract class CloudImage
 {
 	protected $filename;
 	protected $directory;
-	protected $url = 'http://images.iclover.net/';
+	protected $url = 'https://images.iclover.net/';
 	protected $builder;
 
 	abstract public function builder();
